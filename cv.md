@@ -1,3 +1,4 @@
+![Alt-photo](/IMG_73751.jpg)
 # Anna Pashkovets 
 *Frontend-developer-to-be*
 
