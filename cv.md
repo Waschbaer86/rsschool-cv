@@ -17,6 +17,7 @@ Specialty: "Economics and management in customs"
 
 
 **2008-2009**
+
 Bryansk State University Academician I.G. Petrovsky
 
 Faculty of Additional Education
@@ -24,9 +25,12 @@ Faculty of Additional Education
 Specialty: "Translator in the field of professional communication (German)"
 
 **2010**
+
+
 GAU "REGIONAL TRAINING CENTER"
 Specialty: "System administration of computer networks"
 **2022**
+
 Rolling scopes
 S/FE Pre-School 2022Q4
 
