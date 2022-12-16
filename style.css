@@ -14,3 +14,26 @@ table.border td, table.border th {
 table.border th {
     background: #e0e0e0;
 }
+.c {
+    border: 1px solid #fff; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #fff; /* Цвет текста */
+  }
+   .c:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #acacac, #808080); /* Градиент */
+    color: rgb(0, 0, 0);
+   }
+   .header {
+      background-color: #5e5d5d;
+      height: 40px;
+      padding: 5px;
+   }
+   .container-centered {
+    box-shadow: 10px 10px 10px rgba(97, 97, 97, 0.3);
+    margin: 0 auto;
+    width: 1080px; 
+    
+   }
