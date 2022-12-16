@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- </head>
+    <meta charset="utf-8">
+    <title>Ссылка</title>
+    <style>
+        .c {
+         border: 1px solid #fff; /* Рамка */
+         display: inline-block;
+         padding: 5px 15px; /* Поля */
+         text-decoration: none; /* Убираем подчёркивание */
+         color: #fff; /* Цвет текста */
+       }
+        .c:hover {
+         box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+         background: linear-gradient(to bottom, #acacac, #808080); /* Градиент */
+         color: rgb(0, 0, 0);
+        }
+        .header {
+           background-color: #5e5d5d;
+           height: 40px;
+           padding: 5px;
+        }
+        .container-centered {
+         box-shadow: 10px 10px 10px rgba(97, 97, 97, 0.3);
+         margin: 0 auto;
+         width: 1080px; 
+         
+        }
+       </style>
+</head>
+
 <body>
-  <script src="js/scripts.js"></script>
+  <div  class="container-centered">
+    <div class="header" align="center">
+     <header>
+       <div><a href="#" class="c">CONTACTS</a>
+      <a href="#" class="c">ABOUT MYSELF</a>
+      <a href="#" class="c">SKILLS</a></div>
+     </header>
+    </div>
+    <div>
+        <img alt="photo" src="assets/img/ava.jpg">
+    </div>
+</div>
 </body>
 </html>
