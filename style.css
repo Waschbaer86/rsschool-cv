@@ -1,9 +1,10 @@
 html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+    font-family: Raleway;
+    font-size: 17px;
     margin: 0;
     padding: 0;
 }
+
 table {
     border-collapse: collapse;
 }
@@ -35,5 +36,78 @@ table.border th {
     box-shadow: 10px 10px 10px rgba(97, 97, 97, 0.3);
     margin: 0 auto;
     width: 1080px; 
-    
-   }
+       }
+    .main {
+        background-color: #eeeeee;
+    }
+
+    .two-column-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #bebebe;
+        
+      }
+
+    .left-column {
+        width: 29%;
+        display: inline-block;
+        background-color: #5e5d5d;
+        text-align: center;
+            }
+
+    .right-column {
+        width: 71%;
+        text-align: center;
+        
+    }
+    .text-block-right {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0px 0px 10px 0px;
+        border-bottom: 1px solid #000;
+        
+    }
+
+    .text-block-left {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+        padding: 0px 0px 10px 0px;
+        align-content: center;
+    }
+
+    .list-block-right {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0px 40% 10px 40%;
+        border-bottom: 1px solid #000;
+    }
+
+    .code-block-right {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        border-bottom: 1px solid #000;
+        background-color: #161616;
+        color:#fff;
+    }
+      
+    .h1 {
+        font-size: 38px;
+        color: #000;
+    }   
+    .h2 {
+        font-size: 24px;    
+    }
+    .italic {
+        font-style: italic;
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: Raleway;
+         src: url("assets/fonts/Raleway.ttf");
+       }
