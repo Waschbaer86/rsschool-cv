@@ -1,9 +1,10 @@
 html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+    font-family: Raleway;
+    font-size: 17px;
     margin: 0;
     padding: 0;
 }
+
 table {
     border-collapse: collapse;
 }
@@ -12,5 +13,166 @@ table.border td, table.border th {
     border: 1px solid #c0c0c0;
 }
 table.border th {
-    background: #e0e0e0;
+    background: #ffffff;
 }
+
+a:link {
+    text-decoration: none;
+    color:#e0e0e0;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#e0e0e0;
+}
+
+a:hover {
+    color: #5e5d5d;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+svg {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    vertical-align: middle;
+ }   
+ 
+.button-link {
+    border: 1px solid #fff; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #fff; /* Цвет текста */
+  }
+.button-link:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #acacac, #808080); /* Градиент */
+    color: rgb(0, 0, 0);
+   }
+.header {
+      background-color: #5e5d5d;
+      height: 40px;
+      padding: 5px;
+      margin:auto;
+      text-align: center;
+   }
+   .container-centered {
+    box-shadow: 10px 10px 10px rgba(97, 97, 97, 0.3);
+    margin: 0 auto;
+    width: 1080px; 
+       }
+
+    .main {
+        background-color: #eeeeee;
+    }
+
+    .two-column-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #bebebe;
+        
+      }
+
+    .left-column {
+        width: 29%;
+        display: inline-block;
+        background-color: #5e5d5d;
+        text-align: left;
+            }
+
+    .right-column {
+        width: 71%;
+        text-align: center;
+        
+    }
+    .text-block-right {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0px 0px 10px 0px;
+        border-bottom: 1px solid #5e5d5d;
+        
+    }
+
+    .text-block-left {
+        font-size: 16px;
+        color: #e0e0e0;
+        font-weight: normal;
+        line-height: 30px;
+        padding: 0px 0px 20px 0px;
+        align-content: center;
+    }
+
+    .list-block-right {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding: 0px 40% 10px 40%;
+        border-bottom: 1px solid #5e5d5d;
+    }
+
+    .code-block-right {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        border-bottom: 1px solid #5e5d5d;
+        background-color: #161616;
+        color:#fff;
+    }
+    
+    .footer-container {
+        background-color: #bebebe;
+        display: flex;
+        height: 55px;
+        width: 1080px;
+        margin: 0 auto;
+        box-shadow: 10px 10px 10px rgba(97, 97, 97, 0.3);
+    }
+
+    .footer-section {
+        width: 33%;
+        margin: 0;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 50px;
+        
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .h1 {
+        font-size: 38px;
+        color: #000;
+    }   
+
+    .h2-left {
+        font-size: 22px;
+        color: rgb(238, 238, 238);
+        font-weight: normal;
+        text-align: center;
+
+    }   
+
+    .h2 {
+        font-size: 24px;    
+    }
+    .italic {
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    @font-face {
+        font-family: Raleway;
+         src: url("assets/fonts/Raleway.ttf");
+       }
